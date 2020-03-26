@@ -1,0 +1,67 @@
+<!Doctype html>
+<html lang = "pt-br">
+<head>
+    <title>To Do / Internet Search Lists</title>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "_css/style.css">
+</head>
+<body>
+
+    <div id = "caixaPrincipal">
+        <ul id = "listaMenu">
+            <li><label><input type = "radio" class = "displayNone" name = "abaSel" value = "0" checked />To do List</label></li>
+            <li><label><input type = "radio" class = "displayNone" name = "abaSel" value = "1" />Internet Search List</label></li>
+        </ul>
+
+        <div id = "boxToDoList">
+            <ul id = "listaToDoList" class = "formataLista">
+              
+            </ul>    
+        </div>
+
+        <div id = "boxInternetSearchList">
+            <ul id = "listaInternetSearchList" class = "formataLista">
+               
+            </ul>    
+        </div>
+
+        <div id = "boxAdNovoItem">
+            <input id = "txtNovoItemLista" type = "text" placeholder = "Add New Item" required />
+            <button id = "btAddNovoItemLista">Add</button>
+        </div>
+    </div>
+
+ 
+                       
+    <template id = "templateItemListaToDoList">
+
+        <li class = "displayNone opacityZero eleNaoSelecionado">
+            <div>
+                <input type = "checkbox" />
+                <img src = "_imgs/X.svg" class = "displayNone opacityZeroPontoOito btRemoveItem" title = "remove" />
+            </div>
+            <span class = "txtItem"></span>
+        </li>
+     
+    </template>
+                     
+    <template id = "templateItemListaInternetSearchList">
+
+        <li class = "displayNone opacityZero eleNaoSelecionado">
+            <div>
+                <input type = "checkbox" />
+                <img src = "_imgs/X.svg" class = "displayNone opacityZeroPontoOito btRemoveItem" title = "remove" />
+            </div>
+            <span class = "txtItem"></span>
+            <a href = "#" class = "btRealizaPesquisa" target = "_blank" title = "search on google" >Search</a>
+        </li>
+     
+    </template>
+
+
+
+
+<script src = "_javascript/funcoesPadrao.js"></script>
+<script src = "_javascript/script.js"></script>
+</body>
+</html>

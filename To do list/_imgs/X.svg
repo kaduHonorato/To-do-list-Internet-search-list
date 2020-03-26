@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<svg   xmlns="http://www.w3.org/2000/svg"  width = "80" height = "80">
+ 
+    <rect width = "80" height = "80" x = "0" y = "0" fill = "rgba(255,255,255,1)" />
+
+    <line x1 = "20" x2 = "60" y1 = "20" y2 = "60" stroke-width = "6" stroke = "#2A64C0"  />
+    <line x1 = "20" x2 = "60" y1 = "60" y2 = "20" stroke-width = "6" stroke = "#2A64C0" />
+
+</svg>
+
+
+
